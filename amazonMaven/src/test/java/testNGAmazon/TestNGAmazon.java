@@ -53,6 +53,7 @@ public class TestNGAmazon {
 	@Test
 	public void TestC() {
 		System.out.println("Test C");
+		System.out.println("One test case is added");
 	}
 	@AfterMethod
 	public void afterMethod() {
