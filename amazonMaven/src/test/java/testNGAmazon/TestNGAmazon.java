@@ -50,6 +50,10 @@ public class TestNGAmazon {
 	//	soft.assertAll();
 		Assert.assertEquals(currentTitle, expectedTitle);
 	}
+	@Test
+	public void TestC() {
+		System.out.println("Test C");
+	}
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("After Method");
