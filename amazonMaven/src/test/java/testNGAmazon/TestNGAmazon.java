@@ -55,6 +55,16 @@ public class TestNGAmazon {
 		System.out.println("Test C");
 		System.out.println("One test case is added");
 	}
+	@Test
+	public void Test11() {
+		System.out.println("Test 11 is added at 3.29pm");
+		System.out.println("One test case is added");
+	}
+	@Test
+	public void Test21() {
+		System.out.println("Test 11 is added at 3.33pm");
+		System.out.println("One test case is added");
+	}
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("After Method");
